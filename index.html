@@ -419,55 +419,52 @@ footer {
 
 
 <!-- APPLICATION -->
-
 <section class="section" id="apply">
-
-
 <div class="container">
-
     <h2>Book A Strategy Call</h2>
-
     <p class="center-text">
         Tell me about your background, goals,
         and where you currently are in your cybersecurity journey.
     </p>
-
     <br>
-
     <div class="form-container">
-
-        <form>
-
+        <form action="https://formspree.io/f/mgojoaag" method="POST">
+            
             <input
                 type="text"
+                name="name"
                 placeholder="Full Name"
                 required>
-
+            
             <input
                 type="email"
+                name="email"
                 placeholder="Email Address"
                 required>
-
+            
             <input
                 type="text"
+                name="profession"
                 placeholder="Current Profession">
-
+            
             <textarea
+                name="goals"
                 rows="5"
-                placeholder="Tell me about your goals">
-            </textarea>
-
+                placeholder="Tell me about your goals"
+                required></textarea>
+            
+            <!-- Honeypot - helps prevent spam -->
+            <input type="text" name="_gotcha" style="display:none;">
+            
+            <!-- Optional: Let Formspree know the subject -->
+            <input type="hidden" name="_subject" value="New Course Application">
+            
             <button type="submit">
                 Submit Application
             </button>
-
         </form>
-
     </div>
-
 </div>
-
-
 </section>
 
 <footer>
