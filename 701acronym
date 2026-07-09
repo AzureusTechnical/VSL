@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Security Acronyms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 22px;
+            color: #0B2545;
+        }
+        h2 {
+            font-size: 32px;
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 0 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            color: #0B2545;
+        }
+        li:nth-child(odd) {
+            background-color: #F7FAFF;
+        }
+        li:nth-child(even) {
+            background-color: #E8F3FF;
+        }
+        .acronym {
+            position: relative;
+            cursor: pointer;
+            border-bottom: 1px dotted black;
+        }
+        .acronym:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            left: 0;
+            top: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: normal;
+            max-width: 250px;
+            word-wrap: break-word;
+            opacity: 1;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body style="background-color: #D7ECFF">
+    <h2 title="Link to the main site!"><a href="https://azureustechnical.github.io/VSL/">Azureus Technical Training</a></h2>
+    <h2>IT Security Acronyms</h2>
+    <h4>Hover over the acronym to see the definition.</h4>
+    
+    <div class="section">
+        <h3 id="a">A</h3>
+        <div class="container">
+            <ul>
+                <li><span class="acronym" data-tooltip="A framework for controlling user access to network resources">AAA - Authentication, Authorization, and Accounting</span></li>
+                <li><span class="acronym" data-tooltip="A symmetric encryption algorithm widely used for securing data">AES - Advanced Encryption Standard</span></li>
+                <li><span class="acronym" data-tooltip="A measure of expected financial loss due to security risks">ALE - Annualized Loss Expectancy</span></li>
+                <li><span class="acronym" data-tooltip="A policy defining acceptable use of company resources">AUP - Acceptable Use Policy</span></li>
+                <li><span class="acronym" data-tooltip="Technology enabling machines to simulate human intelligence">AI - Artificial Intelligence</span></li>
+                <li><span class="acronym" data-tooltip="A protocol that translates IP addresses to MAC addresses">ARP - Address Resolution Protocol</span></li>
+                <li><span class="acronym" data-tooltip="A security technique that randomizes memory addresses to prevent exploitation">ASLR - Address Space Layout Randomization</span></li>
+                <li><span class="acronym" data-tooltip="A cybersecurity framework for analyzing adversarial techniques">ATT&CK - Adversarial Tactics, Techniques, and Common Knowledge</span></li>
+                </ul>
+        <ul>
+                <li><span class="acronym" data-tooltip="A set of rules that allows software applications to communicate">API - Application Programming Interface</span></li>
+                <li><span class="acronym" data-tooltip="Software designed to detect and prevent malware infections">AV - Antivirus</span></li>
+                <li><span class="acronym" data-tooltip="A measure of expected annual security incidents">ARO - Annualized Rate of Occurrence</span></li>
+                <li><span class="acronym" data-tooltip="A network device that allows wireless communication">AP - Access Point</span></li>
+                <li><span class="acronym" data-tooltip="A system for sharing cybersecurity threat indicators">AIS - Automated Indicator Sharing</span></li>
+                <li><span class="acronym" data-tooltip="A security mechanism used to verify data integrity and authenticity">AH - Authentication Header</span></li>
+                <li><span class="acronym" data-tooltip="A list that specifies access permissions for users and systems">ACL - Access Control List</span></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h3 id="b">B</h3>
+        <div class="container">
+            <ul>
+                <li><span class="acronym" data-tooltip="A Unix shell used for command-line operations">BASH - Bourne Again Shell</span></li>
+                <li><span class="acronym" data-tooltip="A protocol used to exchange routing information between networks">BGP - Border Gateway Protocol</span></li>
+                <li><span class="acronym" data-tooltip="Firmware that initializes hardware during the boot process">BIOS - Basic Input/Output System</span></li>
+                <li><span class="acronym" data-tooltip="A process to assess the impact of disruptions on a business">BIA - Business Impact Analysis</span></li>
+                <li><span class="acronym" data-tooltip="A legal agreement defining business partnerships">BPA - Business Partners Agreement</span></li>
+                <li><span class="acronym" data-tooltip="A strategy for ensuring business operations continue after disruptions">BCP - Business Continuity Planning</span></li>
+                <li><span class="acronym" data-tooltip="A policy allowing employees to use personal devices for work">BYOD - Bring Your Own Device</span></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+    <h3 id="c">C</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A trusted entity that issues digital certificates to verify identities">CA - Certificate Authority</span></li>
+            <li><span class="acronym" data-tooltip="A test used to differentiate between human and machine input">CAPTCHA - Completely Automated Public Turing Test to Tell Computers and Humans Apart</span></li>
+            <li><span class="acronym" data-tooltip="A document that outlines the corrective actions taken to address an issue">CAR - Corrective Action Report</span></li>
+            <li><span class="acronym" data-tooltip="A security solution that controls access to cloud-based services">CASB - Cloud Access Security Broker</span></li>
+            <li><span class="acronym" data-tooltip="A block cipher mode that divides the message into fixed-size blocks">CBC - Cipher Block Chaining</span></li>
+            <li><span class="acronym" data-tooltip="A protocol that combines Counter Mode and CBC-MAC for security">CCMP - Counter Mode/CBC-MAC Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A surveillance system that uses cameras to monitor a specific area">CCTV - Closed-circuit Television</span></li>
+            <li><span class="acronym" data-tooltip="A team that manages and responds to computer security incidents">CERT - Computer Emergency Response Team</span></li>
+            <li><span class="acronym" data-tooltip="A stream cipher mode that processes input in feedback loops">CFB - Cipher Feedback</span></li>
+            <li><span class="acronym" data-tooltip="An authentication protocol used in network communications">CHAP - Challenge Handshake Authentication Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A core principle of security, ensuring data is protected, not altered, and available when needed">CIA - Confidentiality, Integrity, Availability</span></li>
+            
+            <li><span class="acronym" data-tooltip="An executive responsible for overseeing an organization's information technology and systems">CIO - Chief Information Officer</span></li>
+            <li><span class="acronym" data-tooltip="A team responsible for handling security incidents within an organization">CIRT - Computer Incident Response Team</span></li>
+            <li><span class="acronym" data-tooltip="A system used for creating, managing, and editing digital content">CMS - Content Management System</span></li>
+            <li><span class="acronym" data-tooltip="A strategic plan ensuring that critical business functions can continue during and after a disaster">COOP - Continuity of Operation Planning</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A policy that allows employees to use personal devices for work purposes">COPE - Corporate Owned, Personally Enabled</span></li>
+            <li><span class="acronym" data-tooltip="The process of planning and preparing for potential disruptions to business operations">CP - Contingency Planning</span></li>
+            <li><span class="acronym" data-tooltip="A method used for detecting accidental changes to data by applying a mathematical algorithm">CRC - Cyclical Redundancy Check</span></li>
+            <li><span class="acronym" data-tooltip="A list of certificates that have been revoked and are no longer trusted">CRL - Certificate Revocation List</span></li>
+            <li><span class="acronym" data-tooltip="An executive responsible for managing an organization's security strategy">CSO - Chief Security Officer</span></li>
+            <li><span class="acronym" data-tooltip="A third-party provider that offers cloud-based computing services">CSP - Cloud Service Provider</span></li>
+            <li><span class="acronym" data-tooltip="A request sent to a CA to issue a digital certificate for a specific entity">CSR - Certificate Signing Request</span></li>
+            <li><span class="acronym" data-tooltip="A type of attack where malicious code is executed by tricking the server into performing an action on behalf of the attacker">CSRF - Cross-site Request Forgery</span></li>
+            <li><span class="acronym" data-tooltip="A device that connects a user to the telephone network or a communications service provider">CSU - Channel Service Unit</span></li>
+            <li><span class="acronym" data-tooltip="A mode of encryption that processes data in blocks and uses a counter value for each block">CTM - Counter Mode</span></li>
+            <li><span class="acronym" data-tooltip="An executive responsible for overseeing the technology strategy of an organization">CTO - Chief Technology Officer</span></li>
+            <li><span class="acronym" data-tooltip="A publicly available list of known vulnerabilities in software or hardware products">CVE - Common Vulnerability Enumeration</span></li>
+            <li><span class="acronym" data-tooltip="A system for rating the severity of vulnerabilities based on their impact and exploitability">CVSS - Common Vulnerability Scoring System</span></li>
+            <li><span class="acronym" data-tooltip="A policy that allows employees to use their personal devices for work purposes under controlled conditions">CYOD - Choose Your Own Device</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="d">D</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A type of access control where resource owners can decide who has access to their resources">DAC - Discretionary Access Control</span></li>
+            <li><span class="acronym" data-tooltip="A professional responsible for managing and maintaining databases">DBA - Database Administrator</span></li>
+            <li><span class="acronym" data-tooltip="An attack aimed at disrupting a network or service by overwhelming it with traffic">DDoS - Distributed Denial of Service</span></li>
+            <li><span class="acronym" data-tooltip="A security feature that prevents code from executing in certain areas of memory">DEP - Data Execution Prevention</span></li>
+            <li><span class="acronym" data-tooltip="An outdated symmetric key encryption algorithm used to protect data">DES - Digital Encryption Standard</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to assign dynamic IP addresses to devices on a network">DHCP - Dynamic Host Configuration Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A key exchange algorithm used in secure communications">DHE - Diffie-Hellman Ephemeral</span></li>
+            <li><span class="acronym" data-tooltip="An email authentication method used to verify the domain of an email sender">DKIM - DomainKeys Identified Mail</span></li>
+            <li><span class="acronym" data-tooltip="A file containing code that can be used by multiple programs on a computer">DLL - Dynamic Link Library</span></li>
+            <li><span class="acronym" data-tooltip="A set of tools and processes used to protect sensitive data from loss or unauthorized access">DLP - Data Loss Prevention</span></li>
+            <li><span class="acronym" data-tooltip="An email validation system used to detect and prevent email spoofing">DMARC - Domain Message Authentication Reporting and Conformance</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A network technique that modifies the destination address of IP packets as they pass through a router or firewall">DNAT - Destination Network Address Translation</span></li>
+            <li><span class="acronym" data-tooltip="A system that translates domain names into IP addresses to locate resources on the internet">DNS - Domain Name System</span></li>
+            <li><span class="acronym" data-tooltip="An attack designed to make a computer or network resource unavailable to its intended users">DoS - Denial of Service</span></li>
+            <li><span class="acronym" data-tooltip="An individual responsible for ensuring an organization complies with data protection laws and regulations">DPO - Data Privacy Officer</span></li>
+            <li><span class="acronym" data-tooltip="A plan that outlines how an organization will recover from disruptive events or disasters">DRP - Disaster Recovery Plan</span></li>
+            <li><span class="acronym" data-tooltip="A public key encryption algorithm used for secure digital signatures">DSA - Digital Signature Algorithm</span></li>
+            <li><span class="acronym" data-tooltip="A technology for delivering high-speed internet access over telephone lines">DSL - Digital Subscriber Line</span></li>
+        </ul>
+    </div>
+</div>
+    
+<div class="section">
+    <h3 id="e">E</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A protocol used in network authentication for communication between devices and authentication servers">EAP - Extensible Authentication Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A basic block cipher mode that encrypts data in fixed-size blocks, often considered insecure">ECB - Electronic Code Book</span></li>
+            <li><span class="acronym" data-tooltip="A type of public-key cryptography based on elliptic curves, offering security with shorter keys">ECC - Elliptic Curve Cryptography</span></li>
+            <li><span class="acronym" data-tooltip="A key exchange method using elliptic curve cryptography to securely exchange keys over an insecure channel">ECDHE - Elliptic Curve Diffie-Hellman Ephemeral</span></li>
+            <li><span class="acronym" data-tooltip="A digital signature algorithm based on elliptic curve cryptography that provides smaller key sizes and strong security">ECDSA - Elliptic Curve Digital Signature Algorithm</span></li>
+            <li><span class="acronym" data-tooltip="A cybersecurity solution that monitors and responds to potential threats on endpoint devices like computers or mobile devices">EDR - Endpoint Detection and Response</span></li>
+            <li><span class="acronym" data-tooltip="A Windows feature that provides encryption for files and folders to protect data from unauthorized access">EFS - Encrypted File System</span></li>
+            <li><span class="acronym" data-tooltip="Software that helps businesses manage and automate core functions like accounting, procurement, and supply chain operations">ERP - Enterprise Resource Planning</span></li>
+            <li><span class="acronym" data-tooltip="A unique identifier assigned to mobile devices, used to track and authenticate devices on networks">ESN - Electronic Serial Number</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to provide security services such as authentication and confidentiality in IP networks">ESP - Encapsulated Security Payload</span></li>
+        </ul>
+    </div>
+</div>
+    
+<div class="section">
+    <h3 id="f">F</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A list used to manage file access permissions in a file system">FACL - File System Access Control List</span></li>
+            <li><span class="acronym" data-tooltip="A security measure that encrypts the entire disk to protect data from unauthorized access">FDE - Full Disk Encryption</span></li>
+            <li><span class="acronym" data-tooltip="A process that ensures the integrity of files by detecting any unauthorized changes">FIM - File Integrity Management</span></li>
+            <li><span class="acronym" data-tooltip="An integrated circuit that can be programmed after manufacturing to perform specific tasks">FPGA - Field Programmable Gate Array</span></li>
+            <li><span class="acronym" data-tooltip="A metric used to measure the rate of incorrectly rejecting legitimate data or users">FRR - False Rejection Rate</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to transfer files over the internet or a network">FTP - File Transfer Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A secure version of FTP that encrypts the data during transmission">FTPS - Secured File Transfer Protocol</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="g">G</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A block cipher mode of operation that combines encryption with authentication for data integrity">GCM - Galois Counter Mode</span></li>
+            <li><span class="acronym" data-tooltip="A regulation that governs the protection and privacy of personal data within the European Union">GDPR - General Data Protection Regulation</span></li>
+            <li><span class="acronym" data-tooltip="A public key encryption tool used for secure communication and file encryption">GPG - Gnu Privacy Guard</span></li>
+            <li><span class="acronym" data-tooltip="A feature in Windows that defines policies for users and computers within a network">GPO - Group Policy Object</span></li>
+            <li><span class="acronym" data-tooltip="A satellite-based navigation system used to determine the exact location on Earth">GPS - Global Positioning System</span></li>
+            <li><span class="acronym" data-tooltip="A specialized processor used for rendering images and performing parallel computations">GPU - Graphics Processing Unit</span></li>
+            <li><span class="acronym" data-tooltip="A tunneling protocol used to encapsulate data for secure communication across a network">GRE - Generic Routing Encapsulation</span></li>
+        </ul>
+    </div>
+</div>
+    
+<div class="section">
+    <h3 id="h">H</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A system designed to ensure that a service remains operational despite failures or outages">HA - High Availability</span></li>
+            <li><span class="acronym" data-tooltip="A type of data storage device that uses magnetic disks to store data">HDD - Hard Disk Drive</span></li>
+            <li><span class="acronym" data-tooltip="A system that monitors network traffic on a single host for signs of malicious activity">HIDS - Host-based Intrusion Detection System</span></li>
+            <li><span class="acronym" data-tooltip="A security system that actively prevents malicious activity on a host system">HIPS - Host-based Intrusion Prevention System</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic technique used to verify data integrity and authenticity">HMAC - Hashed Message Authentication Code</span></li>
+            <li><span class="acronym" data-tooltip="An authentication method based on a one-time password using HMAC">HOTP - HMAC-based One-time Password</span></li>
+            <li><span class="acronym" data-tooltip="A physical device used to manage and store cryptographic keys and other sensitive information">HSM - Hardware Security Module</span></li>
+            <li><span class="acronym" data-tooltip="A standardized system for creating and formatting web documents, including websites">HTML - Hypertext Markup Language</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for transferring hypertext documents over the internet">HTTP - Hypertext Transfer Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A secure version of HTTP that encrypts data during transmission">HTTPS - Hypertext Transfer Protocol Secure</span></li>
+            <li><span class="acronym" data-tooltip="A system used for controlling the heating, ventilation, and air conditioning of a building">HVAC - Heating, Ventilation, and Air Conditioning</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="i">I</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A cloud computing model where services such as servers, storage, and networking are provided as a service over the internet">IaaS - Infrastructure as a Service</span></li>
+            <li><span class="acronym" data-tooltip="The process of managing infrastructure using code or scripts rather than manual configuration">IaC - Infrastructure as Code</span></li>
+            <li><span class="acronym" data-tooltip="A framework for managing digital identities and controlling access to systems and resources">IAM - Identity and Access Management</span></li>
+            <li><span class="acronym" data-tooltip="A network layer protocol used for sending error messages and operational information about the network">ICMP - Internet Control Message Protocol</span></li>
+            <li><span class="acronym" data-tooltip="Systems designed to monitor and control industrial operations and critical infrastructure">ICS - Industrial Control Systems</span></li>
+            <li><span class="acronym" data-tooltip="A symmetric key block cipher that encrypts data in 64-bit blocks">IDEA - International Data Encryption Algorithm</span></li>
+            <li><span class="acronym" data-tooltip="A physical location used for organizing and connecting network cables">IDF - Intermediate Distribution Frame</span></li>
+            <li><span class="acronym" data-tooltip="A service that provides identity verification for users and enables secure access to systems and applications">IdP - Identity Provider</span></li>
+            <li><span class="acronym" data-tooltip="A system that monitors network traffic for potential security threats and malicious activity">IDS - Intrusion Detection System</span></li>
+            <li><span class="acronym" data-tooltip="A standards organization for electrical and electronic technologies, including networking and cybersecurity">IEEE - Institute of Electrical and Electronics Engineers</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for securely exchanging encryption keys between two parties">IKE - Internet Key Exchange</span></li>
+            <li><span class="acronym" data-tooltip="A form of communication in which users exchange real-time text messages">IM - Instant Messaging</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for retrieving and sending email messages over the internet">IMAP - Internet Message Access Protocol</span></li>
+            <li><span class="acronym" data-tooltip="Indicators that help identify potential compromises or attacks in a network or system">IoC - Indicators of Compromise</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A system that connects everyday objects to the internet for communication and automation purposes">IoT - Internet of Things</span></li>
+            <li><span class="acronym" data-tooltip="A protocol that defines addressing methods and routing for data across networks">IP - Internet Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A system that monitors and prevents unauthorized network activity or attacks">IPS - Intrusion Prevention System</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to secure IP communication by providing encryption and authentication services">IPSec - Internet Protocol Security</span></li>
+            <li><span class="acronym" data-tooltip="A process for managing and responding to security incidents, including detecting, investigating, and mitigating threats">IR - Incident Response</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for communication in online chat systems">IRC - Internet Relay Chat</span></li>
+            <li><span class="acronym" data-tooltip="A plan for responding to security incidents, including preparation, detection, and recovery">IRP - Incident Response Plan</span></li>
+            <li><span class="acronym" data-tooltip="An international standards organization for quality, safety, and efficiency in various industries, including IT">ISO - International Standards Organization</span></li>
+            <li><span class="acronym" data-tooltip="A company that provides internet access and services to customers, such as broadband or wireless connectivity">ISP - Internet Service Provider</span></li>
+            <li><span class="acronym" data-tooltip="An individual responsible for ensuring the security of an organization's information systems and data">ISSO - Information Systems Security Officer</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic element used to initialize encryption processes, particularly in block ciphers">IV - Initialization Vector</span></li>
+        </ul>
+    </div>
+</div>
+   
+<div class="section">
+    <h3 id="k">K</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A service in a network that handles the distribution of cryptographic keys to clients and servers for secure communication">KDC - Key Distribution Center</span></li>
+            <li><span class="acronym" data-tooltip="A key used to encrypt other encryption keys, providing an additional layer of security">KEK - Key Encryption Key</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="l">L</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A tunneling protocol used to support virtual private networks (VPNs) for secure communication over the internet">L2TP - Layer 2 Tunneling Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A type of computer network that connects devices in a small geographical area, such as an office or home">LAN - Local Area Network</span></li>
+            <li><span class="acronym" data-tooltip="A protocol for accessing and managing directories over a network, often used for authentication and authorization">LDAP - Lightweight Directory Access Protocol</span></li>
+            <li><span class="acronym" data-tooltip="An older authentication protocol used in wireless networks, susceptible to various attacks">LEAP - Lightweight Extensible Authentication Protocol</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="m">M</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A service model in cloud computing that offers monitoring services over the internet">MaaS - Monitoring as a Service</span></li>
+            <li><span class="acronym" data-tooltip="A type of access control where users are granted or denied access based on a set of rules or policies">MAC - Mandatory Access Control</span></li>
+            <li><span class="acronym" data-tooltip="A method used to control access to a network by limiting devices based on their MAC address">MAC - Media Access Control</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic method used for verifying the authenticity and integrity of a message or data">MAC - Message Authentication Code</span></li>
+            <li><span class="acronym" data-tooltip="A type of network that covers a larger area than a local area network (LAN), typically within a city or region">MAN - Metropolitan Area Network</span></li>
+            <li><span class="acronym" data-tooltip="A storage device used to store information about the system's boot process and configuration">MBR - Master Boot Record</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic hash function that produces a 128-bit hash value, used for data integrity">MD5 - Message Digest 5</span></li>
+            <li><span class="acronym" data-tooltip="A network device used to connect and organize cables in a central location">MDF - Main Distribution Frame</span></li>
+            <li><span class="acronym" data-tooltip="A software or hardware system used to manage and secure mobile devices, ensuring security and compliance">MDM - Mobile Device Management</span></li>
+            <li><span class="acronym" data-tooltip="A security system that requires more than one method of authentication to verify the user's identity">MFA - Multifactor Authentication</span></li>
+            <li><span class="acronym" data-tooltip="A device that performs multiple functions, such as printing, scanning, and copying">MFD - Multifunction Device</span></li>
+            <li><span class="acronym" data-tooltip="A printer that can perform multiple functions, such as printing, scanning, and copying">MFP - Multifunction Printer</span></li>
+            <li><span class="acronym" data-tooltip="A branch of artificial intelligence that focuses on creating algorithms that enable computers to learn and adapt from data">ML - Machine Learning</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A communication system that allows for the sending and receiving of multimedia messages, including text, images, and video">MMS - Multimedia Message Service</span></li>
+            <li><span class="acronym" data-tooltip="A document or agreement that outlines the terms and conditions between parties involved in a business relationship">MOA - Memorandum of Agreement</span></li>
+            <li><span class="acronym" data-tooltip="An agreement between two or more parties, often informal, that outlines mutual goals and responsibilities">MOU - Memorandum of Understanding</span></li>
+            <li><span class="acronym" data-tooltip="A technique used in networking that labels and prioritizes data packets for efficient transmission">MPLS - Multi-protocol Label Switching</span></li>
+            <li><span class="acronym" data-tooltip="An agreement between a service provider and a client, outlining the level of service expected">MSA - Master Service Agreement</span></li>
+            <li><span class="acronym" data-tooltip="A version of the Challenge Handshake Authentication Protocol (CHAP) used by Microsoft for authentication">MSCHAP - Microsoft Challenge Handshake Authentication Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A company that provides services to help manage IT operations, security, or infrastructure">MSP - Managed Service Provider</span></li>
+            <li><span class="acronym" data-tooltip="A company that provides outsourced security services to help protect networks and data">MSSP - Managed Security Service Provider</span></li>
+            <li><span class="acronym" data-tooltip="A reliability metric that measures the average time between failures of a system or component">MTBF - Mean Time Between Failures</span></li>
+            <li><span class="acronym" data-tooltip="A reliability metric that measures the average time until a system or component fails">MTTF - Mean Time to Failure</span></li>
+            <li><span class="acronym" data-tooltip="A reliability metric that measures the average time taken for a system or component to recover after failure">MTTR - Mean Time to Recover</span></li>
+            <li><span class="acronym" data-tooltip="The largest possible size of a data packet that can be sent over a network without fragmentation">MTU - Maximum Transmission Unit</span></li>
+        </ul>
+    </div>
+</div> 
+    
+<div class="section">
+    <h3 id="n">N</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A security system that manages and controls access to a network, ensuring only authorized users can connect">NAC - Network Access Control</span></li>
+            <li><span class="acronym" data-tooltip="A process that modifies the IP address of packets as they pass through a router or firewall">NAT - Network Address Translation</span></li>
+            <li><span class="acronym" data-tooltip="A legal contract between parties that ensures confidential information remains protected">NDA - Non-disclosure Agreement</span></li>
+            <li><span class="acronym" data-tooltip="A technology that allows devices to communicate with each other by being in close proximity">NFC - Near Field Communication</span></li>
+            <li><span class="acronym" data-tooltip="A type of firewall that includes advanced features such as application awareness and intrusion prevention">NGFW - Next-generation Firewall</span></li>
+            <li><span class="acronym" data-tooltip="A security system that monitors network traffic for suspicious activity and potential threats">NIDS - Network-based Intrusion Detection System</span></li>
+            <li><span class="acronym" data-tooltip="A security system that actively blocks potential threats in a network by analyzing traffic">NIPS - Network-based Intrusion Prevention System</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A U.S. government agency that develops and promotes standards for technology, including security protocols">NIST - National Institute of Standards & Technology</span></li>
+            <li><span class="acronym" data-tooltip="A file system used by Windows operating systems, supporting features like file permissions and compression">NTFS - New Technology File System</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for network authentication in Windows, often vulnerable to attacks if not properly configured">NTLM - New Technology LAN Manager</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to synchronize the clocks of computers over a network, ensuring time consistency">NTP - Network Time Protocol</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="o">O</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="An open standard for authorization that allows access tokens to be used for secure API authorization">OAUTH - Open Authorization</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for checking the status of an X.509 digital certificate in real-time">OCSP - Online Certificate Status Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A unique identifier used to distinguish objects in a directory or database">OID - Object Identifier</span></li>
+            <li><span class="acronym" data-tooltip="The software and programs that run on a computer or mobile device, providing services and managing hardware">OS - Operating System</span></li>
+            <li><span class="acronym" data-tooltip="A type of intelligence that is gathered from publicly available sources, often used for security purposes">OSINT - Open-source Intelligence</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A routing protocol used to find the best path for data packets in large networks, such as the internet">OSPF - Open Shortest Path First</span></li>
+            <li><span class="acronym" data-tooltip="Technology used to monitor and control physical devices, processes, and events in industrial environments">OT - Operational Technology</span></li>
+            <li><span class="acronym" data-tooltip="The ability to send and receive software updates or data wirelessly, often for devices or applications">OTA - Over the Air</span></li>
+            <li><span class="acronym" data-tooltip="A standard used for identifying and assessing vulnerabilities in systems or software">OVAL - Open Vulnerability Assessment Language</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="p">P</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A standard used for storing and exchanging cryptographic keys and certificates, often used for secure communications">P12 - PKCS #12</span></li>
+            <li><span class="acronym" data-tooltip="A distributed network model where each participant can act as both a client and a server">P2P - Peer to Peer</span></li>
+            <li><span class="acronym" data-tooltip="A cloud computing service model where users access platforms to develop, run, and manage applications without managing the infrastructure">PaaS - Platform as a Service</span></li>
+            <li><span class="acronym" data-tooltip="A network configuration file used by browsers to set up a proxy for accessing the internet">PAC - Proxy Auto Configuration</span></li>
+            <li><span class="acronym" data-tooltip="A security system that controls access to privileged accounts and critical systems in an organization">PAM - Privileged Access Management</span></li>
+            <li><span class="acronym" data-tooltip="A framework for managing authentication mechanisms within a system, allowing easy integration of multiple authentication methods">PAM - Pluggable Authentication Modules</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for authenticating users in a network, often used in legacy systems">PAP - Password Authentication Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A technique for mapping IP addresses to specific port numbers in a network address translation process">PAT - Port Address Translation</span></li>
+            <li><span class="acronym" data-tooltip="A key derivation function used for securely generating keys from passwords">PBKDF2 - Password-based Key Derivation Function 2</span></li>
+            <li><span class="acronym" data-tooltip="A phone system used for internal communication within an organization, often with extensions and call routing features">PBX - Private Branch Exchange</span></li>
+            <li><span class="acronym" data-tooltip="A format used to capture network traffic, typically used in network analysis or troubleshooting">PCAP - Packet Capture</span></li>
+            <li><span class="acronym" data-tooltip="A set of security standards to protect payment card data during transactions, widely used in the financial industry">PCI DSS - Payment Card Industry Data Security Standard</span></li>
+            <li><span class="acronym" data-tooltip="A device used to distribute electrical power to various components or systems within a network">PDU - Power Distribution Unit</span></li>
+            <li><span class="acronym" data-tooltip="A protocol that provides an additional layer of security for the Extensible Authentication Protocol (EAP) by encrypting data during authentication">PEAP - Protected Extensible Authentication Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A portable device used for personal tasks such as communication, entertainment, or work">PED - Personal Electronic Device</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A secure email format used for protecting email messages with encryption and digital signatures">PEM - Privacy Enhanced Mail</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic method that ensures the secrecy of session keys and protects data even if a key is compromised in the future">PFS - Perfect Forward Secrecy</span></li>
+            <li><span class="acronym" data-tooltip="A program that uses public-key cryptography to encrypt and sign email messages for confidentiality and authenticity">PGP - Pretty Good Privacy</span></li>
+            <li><span class="acronym" data-tooltip="Health information that relates to an individual’s physical or mental condition, often subject to regulatory protection">PHI - Personal Health Information</span></li>
+            <li><span class="acronym" data-tooltip="Information that can be used to identify an individual, such as names, addresses, or social security numbers">PII - Personally Identifiable Information</span></li>
+            <li><span class="acronym" data-tooltip="A form of secure identification used for physical and logical access control, typically a smart card or biometric data">PIV - Personal Identity Verification</span></li>
+            <li><span class="acronym" data-tooltip="A set of standards used to define the methods for encrypting and managing keys in cryptographic systems">PKCS - Public Key Cryptography Standards</span></li>
+            <li><span class="acronym" data-tooltip="A framework for managing keys and digital certificates that ensure the security of communications in a network">PKI - Public Key Infrastructure</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for retrieving email messages from a server to a client over a network">POP - Post Office Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A traditional telephone system that uses analog signals for communication">POTS - Plain Old Telephone Service</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to establish a direct connection between two computers over a serial link or network">PPP - Point-to-Point Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for creating secure VPN connections by tunneling data through encrypted channels">PPTP - Point-to-Point Tunneling Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A security method that uses a shared key for encryption, commonly used in Wi-Fi networks">PSK - Pre-shared Key</span></li>
+            <li><span class="acronym" data-tooltip="A type of camera that allows remote control of its angle and direction, typically used for surveillance">PTZ - Pan-tilt-zoom</span></li>
+            <li><span class="acronym" data-tooltip="Software that displays unwanted advertisements or installs unwanted software on a computer">PUP - Potentially Unwanted Program</span></li>
+        </ul>
+    </div>
+</div>  
+    
+<div class="section">
+    <h3 id="r">R</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="An individual or system responsible for managing encryption keys and recovery processes in case of key loss">RA - Recovery Agent</span></li>
+            <li><span class="acronym" data-tooltip="An authority responsible for verifying the identity of individuals or entities in a public key infrastructure (PKI)">RA - Registration Authority</span></li>
+            <li><span class="acronym" data-tooltip="A European research initiative focused on the development of advanced communication technologies">RACE - Research and Development in Advanced Communications Technologies in Europe</span></li>
+            <li><span class="acronym" data-tooltip="A software development methodology focused on quick development and iterative improvements">RAD - Rapid Application Development</span></li>
+            <li><span class="acronym" data-tooltip="A protocol for remote authentication, used primarily for dial-up network access">RADIUS - Remote Authentication Dial-in User Service</span></li>
+            <li><span class="acronym" data-tooltip="A data storage solution combining multiple physical disk drives to improve performance and data redundancy">RAID - Redundant Array of Inexpensive Disks</span></li>
+            <li><span class="acronym" data-tooltip="A server that provides remote access to a network, allowing users to connect from outside a secure location">RAS - Remote Access Server</span></li>
+            <li><span class="acronym" data-tooltip="A type of malware that allows remote access to a victim’s computer or network">RAT - Remote Access Trojan</span></li>
+            <li><span class="acronym" data-tooltip="An access control model that assigns permissions based on roles assigned to users in an organization">RBAC - Role-based Access Control</span></li>
+            <li><span class="acronym" data-tooltip="An access control model that assigns permissions based on rules rather than individual user roles">RBAC - Rule-based Access Control</span></li>
+            <li><span class="acronym" data-tooltip="A symmetric key encryption algorithm often used for secure communication, but considered weak due to vulnerabilities">RC4 - Rivest Cipher version 4</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A protocol used to establish a connection to a remote desktop, allowing a user to access a computer's interface from another device">RDP - Remote Desktop Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A technology that uses radio waves to communicate with tags, often used for inventory tracking and identification">RFID - Radio Frequency Identifier</span></li>
+            <li><span class="acronym" data-tooltip="A cryptographic hash function designed to provide message integrity and is used in digital signatures">RIPEMD - RACE Integrity Primitives Evaluation Message Digest</span></li>
+            <li><span class="acronym" data-tooltip="A measure of the profitability or performance of an investment or initiative">ROI - Return on Investment</span></li>
+            <li><span class="acronym" data-tooltip="The point in time to which data can be restored after a disaster, determining how much data might be lost">RPO - Recovery Point Objective</span></li>
+            <li><span class="acronym" data-tooltip="A public-key encryption system widely used for securing communication in a variety of applications">RSA - Rivest, Shamir, & Adleman</span></li>
+            <li><span class="acronym" data-tooltip="A mechanism used to blackhole malicious traffic by redirecting it to a null route, effectively blocking it">RTBH - Remotely Triggered Black Hole</span></li>
+            <li><span class="acronym" data-tooltip="The target duration in which a business function should be restored after a disruption, ensuring minimal downtime">RTO - Recovery Time Objective</span></li>
+            <li><span class="acronym" data-tooltip="An operating system designed to provide consistent performance and guarantee responses within a specific timeframe">RTOS - Real-time Operating System</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for delivering real-time audio, video, and multimedia over the internet or a network">RTP - Real-time Transport Protocol</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="s">S</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A standard for securing and encrypting email messages, often used for confidentiality and authentication">S/MIME - Secure/Multipurpose Internet Mail Extensions</span></li>
+            <li><span class="acronym" data-tooltip="A cloud service model where users access software applications hosted by a third-party provider">SaaS - Software as a Service</span></li>
+            <li><span class="acronym" data-tooltip="A protocol for mutual authentication between parties based on password verification and challenge-response mechanisms">SAE - Simultaneous Authentication of Equals</span></li>
+            <li><span class="acronym" data-tooltip="An XML-based standard for exchanging authentication and authorization information between parties">SAML - Security Assertions Markup Language</span></li>
+            <li><span class="acronym" data-tooltip="A network of storage devices that provide centralized data storage and accessibility for users and applications">SAN - Storage Area Network</span></li>
+            <li><span class="acronym" data-tooltip="A field in an SSL/TLS certificate that contains alternative domain names for which the certificate is valid">SAN - Subject Alternative Name</span></li>
+            <li><span class="acronym" data-tooltip="A network architecture designed to provide secure, direct access to applications from anywhere, without a traditional VPN">SASE - Secure Access Service Edge</span></li>
+            <li><span class="acronym" data-tooltip="A system for controlling industrial processes, often used in manufacturing, infrastructure, and energy systems">SCADA - Supervisory Control and Data Acquisition</span></li>
+            <li><span class="acronym" data-tooltip="A set of standards for automating the process of securing systems and managing configurations">SCAP - Security Content Automation Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for enrolling digital certificates in a Public Key Infrastructure (PKI)">SCEP - Simple Certificate Enrollment Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A technology for connecting multiple network locations across a large geographic area using a secure, software-defined method">SD-WAN - Software-defined Wide Area Network</span></li>
+            <li><span class="acronym" data-tooltip="A suite of tools that developers use to create software applications, typically including compilers and debuggers">SDK - Software Development Kit</span></li>
+
+            <li><span class="acronym" data-tooltip="A framework that guides software development through a series of stages from planning to maintenance">SDLC - Software Development Lifecycle</span></li>
+            <li><span class="acronym" data-tooltip="A methodology within the SDLC that focuses on consistent and disciplined project management practices">SDLM - Software Development Lifecycle Methodology</span></li>
+            <li><span class="acronym" data-tooltip="A network architecture that separates the control plane from the data plane to improve scalability and flexibility">SDN - Software-defined Networking</span></li>
+            <li><span class="acronym" data-tooltip="A security-focused operating system that integrates mandatory access controls to protect against security threats">SE Linux - Security-enhanced Linux</span></li>
+            <li><span class="acronym" data-tooltip="A type of storage device that automatically encrypts data stored on it to prevent unauthorized access">SED - Self-encrypting Drives</span></li>
+            <li><span class="acronym" data-tooltip="A type of software error that occurs when the program encounters an unexpected situation, often resulting in program termination">SEH - Structured Exception Handler</span></li>
+            <li><span class="acronym" data-tooltip="A protocol for securely transferring files over a network, using encryption to protect data">SFTP - Secured File Transfer Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A family of cryptographic hash functions commonly used in securing data integrity and passwords">SHA - Secure Hashing Algorithm</span></li>
+            <li><span class="acronym" data-tooltip="A version of HTTP that includes encryption for secure data transmission, typically over the internet">SHTTP - Secure Hypertext Transfer Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A security management tool that monitors and analyzes data from security systems in real-time to detect anomalies and breaches">SIEM - Security Information and Event Management</span></li>
+            <li><span class="acronym" data-tooltip="A microchip embedded in mobile devices that securely stores sensitive data, such as authentication tokens or encryption keys">SIM - Subscriber Identity Module</span></li>
+            <li><span class="acronym" data-tooltip="A contract between a service provider and a customer outlining the expected service levels and metrics for service delivery">SLA - Service-level Agreement</span></li>
+            <li><span class="acronym" data-tooltip="A measure of the potential financial loss from a single occurrence of a risk event">SLE - Single Loss Expectancy</span></li>
+            <li><span class="acronym" data-tooltip="A messaging service used for text-based communication via cellular networks, often used for short messages">SMS - Short Message Service</span></li>
+            </ul>
+        <ul>
+            <li><span class="acronym" data-tooltip="A protocol used for sending and receiving email messages over the internet">SMTP - Simple Mail Transfer Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A secure version of SMTP that uses encryption for email transmission">SMTPS - Simple Mail Transfer Protocol Secure</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for managing network devices, monitoring performance, and configuring parameters">SNMP - Simple Network Management Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for exchanging structured data in web services, typically using XML for data encoding">SOAP - Simple Object Access Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A system for automating and coordinating the security processes involved in detecting, responding to, and recovering from security incidents">SOAR - Security Orchestration, Automation, Response</span></li>
+            <li><span class="acronym" data-tooltip="A type of integrated circuit that contains all components of a computer or electronic system on a single chip">SoC - System on Chip</span></li>
+            <li><span class="acronym" data-tooltip="A security center that monitors and manages security operations across a network or organization">SOC - Security Operations Center</span></li>
+            <li><span class="acronym" data-tooltip="A formal document that outlines the objectives, deliverables, and timeline for a specific project or contract">SOW - Statement of Work</span></li>
+            <li><span class="acronym" data-tooltip="An email authentication method used to prevent email spoofing by verifying the sender’s domain">SPF - Sender Policy Framework</span></li>
+ <li><span class="acronym" data-tooltip="A type of spam delivered via instant messaging protocols, often used for marketing or malicious purposes">SPIM - Spam over Internet Messaging</span></li>
+            <li><span class="acronym" data-tooltip="A standardized language used for managing and querying relational databases">SQL - Structured Query Language</span></li>
+            <li><span class="acronym" data-tooltip="A type of cyberattack that exploits vulnerabilities in a website’s database to insert malicious code">SQLi - SQL Injection</span></li>
+            <li><span class="acronym" data-tooltip="A protocol designed to provide encryption and authentication for real-time communications, such as VoIP">SRTP - Secure Real-Time Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A type of storage device that uses flash memory to store data, offering faster read/write speeds than traditional hard drives">SSD - Solid State Drive</span></li>
+            <li><span class="acronym" data-tooltip="A network protocol used for securely accessing remote systems, often for administrative purposes">SSH - Secure Shell</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used to provide secure communication over a computer network, often used in HTTPS for securing web traffic">SSL - Secure Sockets Layer</span></li>
+            <li><span class="acronym" data-tooltip="A method of authentication that allows users to access multiple systems with a single set of login credentials">SSO - Single Sign-on</span></li>
+            <li><span class="acronym" data-tooltip="A standardized framework for sharing cyber threat intelligence, enabling organizations to exchange security-related data">STIX - Structured Threat Information eXchange</span></li>
+            <li><span class="acronym" data-tooltip="A security solution that filters web traffic to prevent malware, data breaches, and other online threats">SWG - Secure Web Gateway</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="t">T</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A security protocol used to control access to network devices and enforce policy-based access authentication">TACACS+ - Terminal Access Controller Access Control System</span></li>
+            <li><span class="acronym" data-tooltip="A protocol used for securely exchanging threat intelligence, such as Indicators of Compromise (IoCs), between systems">TAXII - Trusted Automated eXchange of Indicator Information</span></li>
+            <li><span class="acronym" data-tooltip="A set of communication protocols that define the internet layer and transmission layer for network communications">TCP/IP - Transmission Control Protocol/Internet Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A security ticket used to authenticate a user within a network, especially in Kerberos-based authentication systems">TGT - Ticket Granting Ticket</span></li>
+            <li><span class="acronym" data-tooltip="A security protocol used to generate and manage cryptographic keys for encryption in wireless networks">TKIP - Temporal Key Integrity Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A protocol that provides encryption and secure communication over networks, especially in securing HTTPS connections">TLS - Transport Layer Security</span></li>
+            <li><span class="acronym" data-tooltip="A concept used to verify a system’s security status before granting access, ensuring that conditions are met at the time of access">TOC - Time-of-check</span></li>
+            <li><span class="acronym" data-tooltip="A system for generating one-time passwords based on time, often used in two-factor authentication systems">TOTP - Time-based One-time Password</span></li>
+            <li><span class="acronym" data-tooltip="A pricing model based on the amount of time a product or service is used, commonly seen in electricity pricing">TOU - Time-of-use</span></li>
+            <li><span class="acronym" data-tooltip="A hardware-based security module used for secure key storage and cryptographic operations, often in conjunction with secure boot or encryption">TPM - Trusted Platform Module</span></li>
+            <li><span class="acronym" data-tooltip="A set of standardized methods and strategies used by attackers to achieve their goals, typically in cybersecurity and threat analysis">TTP - Tactics, Techniques, and Procedures</span></li>
+            <li><span class="acronym" data-tooltip="A mechanism for securing the integrity of DNS data by signing zone data using public-key cryptography">TSIG - Transaction Signature</span></li>
+        </ul>
+    </div>
+</div>
+    
+<div class="section">
+    <h3 id="u">U</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A type of testing where end users test the system to ensure it meets their requirements before production release">UAT - User Acceptance Testing</span></li>
+            <li><span class="acronym" data-tooltip="A type of drone used for various applications, including surveillance, delivery, and military use">UAV - Unmanned Aerial Vehicle</span></li>
+            <li><span class="acronym" data-tooltip="A communication protocol that facilitates the transfer of data without establishing a connection, commonly used for network communications">UDP - User Datagram Protocol</span></li>
+            <li><span class="acronym" data-tooltip="A modern firmware interface that replaces BIOS, providing enhanced security and boot functionality for systems">UEFI - Unified Extensible Firmware Interface</span></li>
+            <li><span class="acronym" data-tooltip="A management approach for maintaining and securing the various endpoints in a network, including mobile devices and desktops">UEM - Unified Endpoint Management</span></li>
+            <li><span class="acronym" data-tooltip="A device that provides backup power in case of a power failure, protecting against data loss and hardware damage">UPS - Uninterruptible Power Supply</span></li>
+            <li><span class="acronym" data-tooltip="A string of characters used to identify a resource or service on the internet, similar to a URL but more flexible">URI - Uniform Resource Identifier</span></li>
+            <li><span class="acronym" data-tooltip="A standardized address used to locate resources on the internet, commonly known as a web address">URL - Universal Resource Locator</span></li>
+            <li><span class="acronym" data-tooltip="A standard connection interface for peripherals, allowing the transfer of data between devices such as computers, smartphones, and printers">USB - Universal Serial Bus</span></li>
+            <li><span class="acronym" data-tooltip="A feature of USB devices that allows them to act as both hosts and peripherals, enabling greater flexibility in device connection">USB OTG - USB On the Go</span></li>
+            <li><span class="acronym" data-tooltip="A solution that integrates various security tools and technologies into a single platform to provide comprehensive protection">UTM - Unified Threat Management</span></li>
+            <li><span class="acronym" data-tooltip="A type of network cable consisting of multiple pairs of wires twisted together to reduce interference">UTP - Unshielded Twisted Pair</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="v">V</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A programming language developed by Microsoft, widely used for creating applications and software development">VBA - Visual Basic</span></li>
+            <li><span class="acronym" data-tooltip="A virtualized desktop environment where users access a system as though it were a physical desktop, with the virtualized components handled remotely">VDE - Virtual Desktop Environment</span></li>
+            <li><span class="acronym" data-tooltip="A virtualized desktop system where desktops are hosted and managed centrally, allowing users to access them remotely">VDI - Virtual Desktop Infrastructure</span></li>
+            <li><span class="acronym" data-tooltip="A network of virtual machines that appear as a single entity, providing network services such as IP management and routing">VLAN - Virtual Local Area Network</span></li>
+            <li><span class="acronym" data-tooltip="A method of subnetting where subnet masks can be of different lengths to optimize IP address distribution and usage">VLSM - Variable Length Subnet Masking</span></li>
+            <li><span class="acronym" data-tooltip="A software-based emulation of a physical computer, enabling users to run multiple operating systems simultaneously on a host machine">VM - Virtual Machine</span></li>
+            <li><span class="acronym" data-tooltip="A communication technology that enables voice transmission over the internet, eliminating the need for traditional phone lines">VoIP - Voice over IP</span></li>
+            <li><span class="acronym" data-tooltip="A cloud service offering virtualized resources, such as computing power, storage, and networking, to users over the internet">VPC - Virtual Private Cloud</span></li>
+            <li><span class="acronym" data-tooltip="A private network solution that enables users to securely connect to remote systems or networks over the internet, typically using encryption">VPN - Virtual Private Network</span></li>
+            <li><span class="acronym" data-tooltip="A technology that allows for live video communication between two or more participants, often used for remote meetings or collaboration">VTC - Video Teleconferencing</span></li>
+        </ul>
+    </div>
+</div>
+    
+ <div class="section">
+    <h3 id="w">W</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A security system designed to monitor and filter incoming and outgoing web traffic to and from a web application">WAF - Web Application Firewall</span></li>
+            <li><span class="acronym" data-tooltip="A device that allows wireless devices to connect to a wired network using Wi-Fi standards">WAP - Wireless Access Point</span></li>
+            <li><span class="acronym" data-tooltip="An outdated encryption protocol designed to provide privacy on wireless networks, now considered insecure">WEP - Wired Equivalent Privacy</span></li>
+            <li><span class="acronym" data-tooltip="A system for detecting unauthorized attempts to access a wireless network by monitoring the airwaves">WIDS - Wireless Intrusion Detection System</span></li>
+            <li><span class="acronym" data-tooltip="A security system for preventing unauthorized access to a wireless network by actively blocking attacks">WIPS - Wireless Intrusion Prevention System</span></li>
+            <li><span class="acronym" data-tooltip="A document or request in a service management or project management system used to initiate or track work">WO - Work Order</span></li>
+            <li><span class="acronym" data-tooltip="A security protocol designed to protect wireless networks by securing the data transmitted over Wi-Fi">WPA - Wi-Fi Protected Access</span></li>
+            <li><span class="acronym" data-tooltip="A wireless networking standard used to secure wireless networks with a simple setup process, commonly used in home networks">WPS - Wi-Fi Protected Setup</span></li>
+            <li><span class="acronym" data-tooltip="A security protocol for securing wireless communications, similar to SSL but for wireless networks">WTLS - Wireless TLS</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3 id="x">X</h3>
+    <div class="container">
+        <ul>
+            <li><span class="acronym" data-tooltip="A security technology designed to provide extended detection and response capabilities across a variety of security tools and systems">XDR - Extended Detection and Response</span></li>
+            <li><span class="acronym" data-tooltip="A markup language used for encoding documents in a format that is both human-readable and machine-readable, commonly used in web services">XML - Extensible Markup Language</span></li>
+            <li><span class="acronym" data-tooltip="A logical operation used in computing, where the result is true only if the inputs are different">XOR - Exclusive Or</span></li>
+            <li><span class="acronym" data-tooltip="A security vulnerability in web applications where an attacker can trick a user into performing an action without their consent, often via a link or form">XSRF - Cross-site Request Forgery</span></li>
+            <li><span class="acronym" data-tooltip="A type of security vulnerability in web applications where an attacker can inject malicious scripts into web pages that are then executed in users' browsers">XSS - Cross-site Scripting</span></li>
+        </ul>
+    </div>
+</div>
+    
+    
+</body>
+</html>
