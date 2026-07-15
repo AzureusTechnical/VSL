@@ -421,61 +421,100 @@ footer {
 <!-- APPLICATION -->
 <section class="section" id="apply">
 <div class="container">
-    <h2>Book A Strategy Call</h2>
+
+    <h2>Book a Strategy Call</h2>
+
     <p class="center-text">
-        Tell me about your background, goals,
-        and where you currently are in your cybersecurity journey.
+        Tell me about your background, goals, and where you currently are
+        in your cybersecurity journey.
     </p>
+
     <br>
+
     <div class="form-container">
+
         <form action="https://formspree.io/f/mgojoaag" method="POST">
-            
+
             <input
                 type="text"
                 name="name"
                 placeholder="Full Name"
                 required>
-            
+
             <input
                 type="email"
                 name="email"
                 placeholder="Email Address"
                 required>
-            
+
             <input
                 type="text"
                 name="profession"
                 placeholder="Current Profession">
-            
+
+            <label>IT / Cybersecurity Experience</label>
+            <select name="experience" required>
+                <option value="">Select...</option>
+                <option>No IT Experience</option>
+                <option>Some IT Experience</option>
+                <option>1–2 Years</option>
+                <option>3-5 Years</option>
+				<option>5-10 Years</option>
+				<option>10+ Years</option>
+            </select>
+
+            <label>Can you invest $3,999 USD in your training?</label>
+            <select name="budget" required>
+                <option value="">Select...</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <label>Can you pass a background check?</label>
+            <select name="background_check" required>
+                <option value="">Select...</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
             <textarea
                 name="goals"
                 rows="5"
-                placeholder="Tell me about your goals"
+                placeholder="Tell me about your goals and why you're interested in cybersecurity."
                 required></textarea>
-            
-            <!-- Honeypot - helps prevent spam -->
-            <input type="text" name="_gotcha" style="display:none;">
-            
-            <!-- Optional: Let Formspree know the subject -->
-            <input type="hidden" name="_subject" value="New Course Application">
-            
+
+            <!-- Honeypot (spam protection) -->
+            <input
+                type="text"
+                name="_gotcha"
+                style="display:none;">
+
+            <!-- Email Subject -->
+            <input
+                type="hidden"
+                name="_subject"
+                value="New Strategy Call Application">
+
             <button type="submit">
-                Submit Application
+                Apply for a Strategy Call
             </button>
+
         </form>
+
     </div>
+
 </div>
 </section>
 
+	
 <footer>
-
 
 <p>
     © 2026 Cybersecurity Career Accelerator
 </p>
 
 <p>
-    Home Labs • Certifications • Career Coaching• <a href="701acronym.html">Acronyms Page</a>
+    Home Labs • Certifications • Career Coaching
 </p>
 
 
