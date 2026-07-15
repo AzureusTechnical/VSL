@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Cybersecurity Acronyms Guide</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#202124;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+.container{
+    width:400px;
+    background:#2d2d2d;
+    padding:30px;
+    border-radius:8px;
+}
+input,button{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    box-sizing:border-box;
+}
+button{
+    background:#0078D7;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+.logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: rgb(0,90,180);
+    font-family: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+</style>
+
+</head>
+<body>
+
+<div class="logo">Azureus Technical</div>
+
+<div class="container">
+
+<h2>Free Cybersecurity Acronyms Guide</h2>
+
+<p>Enter your email to access the guide.</p>
+
+<form action="https://formspree.io/f/xvzezoge" method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Name">
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required>
+
+    <!-- Formspree Honeypot -->
+    <input
+        type="text"
+        name="_gotcha"
+        style="display:none">
+
+    <!-- Redirect after successful submission -->
+    <input
+        type="hidden"
+        name="_redirect"
+        value="701acronym.html">
+
+    <button type="submit">
+        Access Acronyms
+    </button>
+
+</form>
+
+<p><a href="index.html" style="color:#4FC3F7;">Book a Call</a></p>
+
+</div>
+
+</body>
+</html>
